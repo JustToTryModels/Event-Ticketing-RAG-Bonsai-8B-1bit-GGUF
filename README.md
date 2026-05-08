@@ -22,6 +22,8 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 4.  [**Results**](#4-results)
 5.  [**License**](#5-license)
 
+<br>
+
 ---
 
 ## 1. What is RAG?
@@ -67,6 +69,8 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 - **Augmented generation**: Retrieved chunks are inserted into a prompt template alongside the user's query and sent to the LLM.
 - **Optional citations**: Source references can be included for traceability.
 
+<br>
+
 ---
 
 ## 2. Data
@@ -95,6 +99,8 @@ The system is powered by the **Bitext Events Ticketing LLM Chatbot Training Data
 5.  **Capitalization Fixes** – First letter of instructions capitalized.
 
 The cleaned dataset provides the instruction-response pairs that serve as the knowledge base for retrieval.
+
+<br>
 
 ---
 
@@ -180,6 +186,8 @@ Bonsai-8B is a state-of-the-art end-to-end **1-bit language model** that deliver
   
 Despite being 1/14th the size, Bonsai-8B matches full-precision 8B models across multiple benchmarks.
 
+<br>
+
 ---
 
 ## 4. Results
@@ -236,6 +244,8 @@ The system consistently refuses queries outside the ticketing domain, demonstrat
 > I apologize, but I can only assist with event ticket-related queries. Is there anything about event tickets I can help you with?
 
 The same refusal pattern holds for technical questions, creative requests, roleplay attempts, and even adversarial prompts attempting to bypass the domain guardrails.
+
+<br>
 
 ---
 
