@@ -226,6 +226,18 @@ The system successfully handles ticketing-related queries, retrieving the correc
 > 4. Locate your existing ticket under **Upgrade Ticket Information** and click the **Upgrade Ticket** button.  
 > 5. Follow the on-screen prompts to select your desired upgrade and confirm.
 
+---
+
+> **User:** *"Can you tell me how to get a refund for the football match in London?"*
+
+> **Assistant:**  
+> To request a refund for the football match in London, please follow these steps:  
+> 1. Access the [website](https://github.com/…) and log in to your account.  
+> 2. Proceed to the **Refunds** section.  
+> 3. Locate your upcoming events and select the ticket for the football match in London.  
+> 4. Click on the **Request Refund** option.  
+> 5. Follow the on-screen instructions to submit your refund request.
+
 <br>
 
 ---
