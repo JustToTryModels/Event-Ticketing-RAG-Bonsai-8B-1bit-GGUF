@@ -242,6 +242,8 @@ The system consistently refuses queries outside the ticketing domain, demonstrat
 > **Assistant:**  
 > I apologize, but I can only assist with event ticket-related queries. Is there anything about event tickets I can help you with?
 
+<br>
+
 The same refusal pattern holds for technical questions, creative requests, roleplay attempts, and even adversarial prompts attempting to bypass the domain guardrails.
 
 <br>
