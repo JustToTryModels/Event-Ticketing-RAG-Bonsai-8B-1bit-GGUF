@@ -166,6 +166,9 @@ Bonsai-8B is a state-of-the-art end-to-end **1-bit language model** that deliver
 </div>
   
 #### Benchmark Performance
+
+<div align="center">
+  
 | Model | Company | Size | Avg (6 tasks) | MMLU-R | GSM8K | IFEval |
 |-------|---------|------|--------------|--------|-------|--------|
 | Qwen 3 8B | Alibaba | 16 GB | 79.3 | 83.0 | 93.0 | 84.2 |
@@ -173,6 +176,8 @@ Bonsai-8B is a state-of-the-art end-to-end **1-bit language model** that deliver
 | **1-bit Bonsai 8B** | **PrismML** | **1.15 GB** | **70.5** | **65.7** | **88.0** | **79.8** |
 | Llama 3.1 8B | Meta | 16 GB | 67.1 | 72.9 | 87.9 | 51.5 |
 
+</div>
+  
 Despite being 1/14th the size, Bonsai-8B matches full-precision 8B models across multiple benchmarks.
 
 ---
