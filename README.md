@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎟️ Event Ticketing Assistant with RAG and Bonsai-8B-1bit-GGUF
+# 🎫 Event Ticketing Assistant with RAG and Bonsai-8B-1bit-GGUF
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow)](https://huggingface.co/prism-ml/Bonsai-8B-gguf)
