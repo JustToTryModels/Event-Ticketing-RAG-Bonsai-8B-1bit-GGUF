@@ -37,7 +37,7 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 </div>
   
 <pre align="center">
-[ ════════════════ PHASE 1: DATA INGESTION ════════════════ ]
+[ ═══════════════ PHASE 1: DATA INGESTION ═════════════════ ]
 [                     (Offline Phase)                       ]
 [                                                           ]
 [   Documents      Chunking       Embedding       Vector    ]
