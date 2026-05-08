@@ -30,6 +30,8 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 
 ### The Full RAG Pipeline
 
+<div align="center">
+  
 ```
 [ ════════════════ PHASE 1: DATA INGESTION ════════════════ ]
 [                     (Offline Phase)                       ]
@@ -55,6 +57,8 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 [   LLM Generation  ──►  Final Answer + Citations           ]
 ```
 
+</div>
+  
 **Phase 1 – Offline Ingestion & Indexing**
 - **Collect documents**: The knowledge base (FAQs, policies, instruction-response pairs).
 - **Chunk the documents**: Split into smaller, manageable pieces.
