@@ -46,7 +46,7 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 [       ▼              ▼              ▼               ▼     ]
 [   Raw Text    ──►  Chunks    ──►  Vectors     ──►  FAISS  ]
 [                                                           ]
-[ ════════════════ PHASE 2: INFERENCE ═════════════════════ ]
+[ ═════════════════ PHASE 2: INFERENCE ════════════════════ ]
 [                     (Online Phase)                        ]
 [                                                           ]
 [   User Query  ──►  Embedding  ──►  Similarity Search      ]
