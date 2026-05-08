@@ -30,9 +30,10 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 
 **Retrieval-Augmented Generation (RAG)** is a hybrid AI framework that combines **information retrieval** with **text generation**. Instead of relying solely on the static knowledge encoded in a language model's weights, RAG first retrieves relevant documents from an external knowledge base and then provides them as context to the model. This grounds the model's answer in actual, verifiable data.
 
+<pre align="center">
+  
 ### The Full RAG Pipeline  
 
-<pre align="center">
 [ ════════════════ PHASE 1: DATA INGESTION ════════════════ ]
 [                     (Offline Phase)                       ]
 [                                                           ]
