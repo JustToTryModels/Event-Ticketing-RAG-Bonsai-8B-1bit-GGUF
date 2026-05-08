@@ -117,7 +117,7 @@ The cleaned dataset provides the instruction-response pairs that serve as the kn
 
 </div>
   
-This lightweight model was chosen for its excellent balance of speed and semantic understanding, making it ideal for real-time retrieval.
+> This lightweight model was chosen for its excellent balance of speed and semantic understanding, making it ideal for real-time retrieval.
 
 ### 3.2 Vector Database: FAISS
 
@@ -131,7 +131,7 @@ This lightweight model was chosen for its excellent balance of speed and semanti
 
 </div>
   
-Each instruction from the dataset is embedded and added to the FAISS index. At query time, the 3 most similar instructions are retrieved, and their corresponding responses are fed into the prompt as reference pairs.
+> Each instruction from the dataset is embedded and added to the FAISS index. At query time, the 3 most similar instructions are retrieved, and their corresponding responses are fed into the prompt as reference pairs.
 
 ### 3.3 LLM Generator: Bonsai-8B (1-bit GGUF) by Prism ML
 
