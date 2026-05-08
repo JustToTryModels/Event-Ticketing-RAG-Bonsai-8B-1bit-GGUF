@@ -36,9 +36,9 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 [                                                           ]
 [   Documents      Chunking       Embedding       Vector    ]
 [  (PDFs, DBs)   (Split text)      Model         Database   ]
-[       │              │              │               │      ]
-[       ▼              ▼              ▼               ▼      ]
-[   Raw Text    ──►  Chunks    ──►  Vectors     ──►  FAISS   ]
+[       │              │              │               │     ]
+[       ▼              ▼              ▼               ▼     ]
+[   Raw Text    ──►  Chunks    ──►  Vectors     ──►  FAISS  ]
 [                                                           ]
 [ ════════════════ PHASE 2: INFERENCE ═════════════════════ ]
 [                     (Online Phase)                        ]
@@ -50,8 +50,8 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 [       │                                 │                 ]
 [       ▼                                 ▼                 ]
 [   Augmented Prompt  ◄────────  Retrieved Context          ]
-[       │                                                    ]
-[       ▼                                                    ]
+[       │                                                   ]
+[       ▼                                                   ]
 [   LLM Generation  ──►  Final Answer + Citations           ]
 ```
 
