@@ -56,6 +56,33 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 [   LLM Generation  ──►  Final Answer + Citations           ]
 </pre>
 
+
+### The Full RAG Pipeline  
+
+<pre align="center">
+[ ════════════════ PHASE 1: DATA INGESTION ════════════════ ]
+[                     (Offline Phase)                       ]
+[                                                           ]
+[   📄 Documents    ✂️ Chunking     🧠 Embedding    🗄️ Vector  ]
+[    (PDFs, DBs)  (Split text)      Model        Database   ]
+[       │              │              │               │     ]
+[       ▼              ▼              ▼               ▼     ]
+[   Raw Text    ──►  Chunks    ──►  Vectors     ──►  FAISS  ]
+[                                                           ]
+[ ════════════════ PHASE 2: INFERENCE ═════════════════════ ]
+[                     (Online Phase)                        ]
+[                                                           ]
+[   💬 User Query ──► 🧠 Embedding ──► 🔍 Similarity Search ]
+[       │                                 │                 ]
+[       │                                 ▼                 ]
+[       │                          📑 Top-k Chunks          ]
+[       │                                 │                 ]
+[       ▼                                 ▼                 ]
+[   ✍️ Augmented Prompt ◄────────  📥 Retrieved Context     ]
+[       │                                                   ]
+[       ▼                                                   ]
+[   🤖 LLM Generation ──►  🎯 Final Answer + Citations     ]
+</pre>
   
 **Phase 1 – Offline Ingestion & Indexing**
 - **Collect documents**: The knowledge base (FAQs, policies, instruction-response pairs).
