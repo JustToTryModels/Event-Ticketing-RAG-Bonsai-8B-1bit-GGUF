@@ -16,9 +16,9 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 ## 📜 Table of Contents
 
 1.  [**What is RAG?**](#1-what-is-rag)
-2.  [**Dataset & Preprocessing**](#2-Dataset-&-Preprocessing)
-3.  [**System Architecture & Models**](#3-System-Architecture-&-Models)
-4.  [**Evaluation & Results**](#4-Evaluation-&-Results)
+2.  [**Dataset & Preprocessing**](#2-dataset--preprocessing)
+3.  [**System Architecture & Models**](#3-system-architecture--models)
+4.  [**Evaluation & Results**](#4-evaluation--results)
 5.  [**Acknowledgments**](#5-acknowledgments)
 6.  [**License**](#6-license)
 
