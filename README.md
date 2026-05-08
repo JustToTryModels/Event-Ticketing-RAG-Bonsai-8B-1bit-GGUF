@@ -158,9 +158,9 @@ Bonsai-8B is a state-of-the-art end-to-end **1-bit language model** that deliver
 - **Cross-platform** – Runs on GPU, Mac, or even Android phones.
 - **Competitive quality** – Maintains strong reasoning despite extreme compression.
 
-#### Cross-Platform Throughput
-
 <div align="center">
+
+#### Cross-Platform Throughput
   
 | Platform | Backend | Bonsai (tok/s) | FP16 (tok/s) | Speedup |
 |----------|---------|---------------|-------------|---------|
@@ -169,10 +169,10 @@ Bonsai-8B is a state-of-the-art end-to-end **1-bit language model** that deliver
 | Samsung S25 Ultra | OpenCL | **19.6** | — | — |
 
 </div>
-  
-#### Benchmark Performance
 
 <div align="center">
+
+#### Benchmark Performance
   
 | Model | Company | Size | Avg (6 tasks) | MMLU-R | GSM8K | IFEval |
 |-------|---------|------|--------------|--------|-------|--------|
