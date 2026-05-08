@@ -16,9 +16,9 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 ## 📜 Table of Contents
 
 1.  [**What is RAG?**](#1-what-is-rag)
-2.  [**Data**](#2-data)
-3.  [**Models Used**](#3-models-used)
-4.  [**Results**](#4-results)
+2.  [**Dataset & Preprocessing**](#2-Dataset-&-Preprocessing)
+3.  [**System Architecture & Models**](#3-System-Architecture-&-Models)
+4.  [**Evaluation & Results**](#4-Evaluation-&-Results)
 5.  [**Acknowledgments**](#5-acknowledgments)
 6.  [**License**](#6-license)
 
@@ -78,7 +78,7 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 
 ---
 
-## 2. Data
+## 2. Dataset & Preprocessing
 
 The system is powered by the **Bitext Events Ticketing LLM Chatbot Training Dataset**.
 
@@ -109,7 +109,7 @@ The cleaned dataset provides the instruction-response pairs that serve as the kn
 
 ---
 
-## 3. Models Used
+## 3. System Architecture & Models
 
 ### 3.1 Embedding Model: `all-MiniLM-L6-v2`
 
@@ -203,7 +203,7 @@ Bonsai-8B is a state-of-the-art end-to-end **1-bit language model** that deliver
 
 ---
 
-## 4. Results
+## 4. Evaluation & Results
 
 ### ✅ In-Domain Queries
 
