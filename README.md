@@ -208,7 +208,7 @@ The system successfully handles ticketing-related queries, retrieving the correc
 
 > **Assistant:**  
 > To cancel your ticket for the cricket event in Mumbai, please follow these steps:  
-> 1. Go to [website](https://github.com/…) and sign in to your account.  
+> 1. Go to [website](https://github.com/MarpakaPradeepSai) and sign in to your account.  
 > 2. Access the **Ticket Cancellation** section.  
 > 3. Locate your upcoming reservations and select the ticket for the cricket event in Mumbai.  
 > 4. Choose the **Cancel Ticket** option.  
@@ -220,7 +220,7 @@ The system successfully handles ticketing-related queries, retrieving the correc
 
 > **Assistant:**  
 > To upgrade your ticket for the upcoming hockey event in Sri Lanka, please follow these steps:  
-> 1. Go to the [website](https://github.com/…).  
+> 1. Go to the [website](https://github.com/MarpakaPradeepSai).  
 > 2. Sign in with your account credentials.  
 > 3. Navigate to the **Ticketing** page.  
 > 4. Locate your existing ticket under **Upgrade Ticket Information** and click the **Upgrade Ticket** button.  
@@ -232,7 +232,7 @@ The system successfully handles ticketing-related queries, retrieving the correc
 
 > **Assistant:**  
 > To request a refund for the football match in London, please follow these steps:  
-> 1. Access the [website](https://github.com/…) and log in to your account.  
+> 1. Access the [website](https://github.com/MarpakaPradeepSai) and log in to your account.  
 > 2. Proceed to the **Refunds** section.  
 > 3. Locate your upcoming events and select the ticket for the football match in London.  
 > 4. Click on the **Request Refund** option.  
