@@ -28,10 +28,7 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 
 **Retrieval-Augmented Generation (RAG)** is a hybrid AI framework that combines **information retrieval** with **text generation**. Instead of relying solely on the static knowledge encoded in a language model's weights, RAG first retrieves relevant documents from an external knowledge base and then provides them as context to the model. This grounds the model's answer in actual, verifiable data.
 
-### The Full RAG Pipeline
-
-<div align="center">
-  
+### The Full RAG Pipeline  
 ```
 [ ════════════════ PHASE 1: DATA INGESTION ════════════════ ]
 [                     (Offline Phase)                       ]
@@ -56,8 +53,6 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 [       ▼                                                   ]
 [   LLM Generation  ──►  Final Answer + Citations           ]
 ```
-
-</div>
   
 **Phase 1 – Offline Ingestion & Indexing**
 - **Collect documents**: The knowledge base (FAQs, policies, instruction-response pairs).
@@ -78,6 +73,8 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 
 The system is powered by the **Bitext Events Ticketing LLM Chatbot Training Dataset**.
 
+<div align="center">
+  
 | Property | Detail |
 |----------|--------|
 | **Source** | `bitext/Bitext-events-ticketing-llm-chatbot-training-dataset` |
@@ -85,6 +82,10 @@ The system is powered by the **Bitext Events Ticketing LLM Chatbot Training Data
 | **Columns** | `instruction`, `intent`, `category`, `tags`, `response` |
 | **Unique Intents** | 25 (balanced distribution) |
 | **Categories** | CANCELLATIONS, TICKETS, REFUNDS, PAYMENTS, DELIVERY, etc. |
+
+</div>
+
+<br>
 
 ### Data Cleaning Steps
 1.  **Duplicate Removal** – 2 duplicate rows dropped.
@@ -101,15 +102,21 @@ The cleaned dataset provides the instruction-response pairs that serve as the kn
 
 ### 3.1 Embedding Model: `all-MiniLM-L6-v2`
 
+<div align="center">
+  
 | Property | Detail |
 |----------|--------|
 | **Library** | Sentence-Transformers |
 | **Vector Dimension** | 384 |
 | **Purpose** | Converts both the knowledge base instructions and user queries into dense vectors for similarity search |
 
+</div>
+  
 This lightweight model was chosen for its excellent balance of speed and semantic understanding, making it ideal for real-time retrieval.
 
 ### 3.2 Vector Database: FAISS
+
+<div align="center">
 
 | Property | Detail |
 |----------|--------|
@@ -117,12 +124,16 @@ This lightweight model was chosen for its excellent balance of speed and semanti
 | **Search Method** | Nearest-neighbor with top-k retrieval (k=3) |
 | **Purpose** | Stores and indexes instruction embeddings for fast similarity search |
 
+</div>
+  
 Each instruction from the dataset is embedded and added to the FAISS index. At query time, the 3 most similar instructions are retrieved, and their corresponding responses are fed into the prompt as reference pairs.
 
 ### 3.3 LLM Generator: Bonsai-8B (1-bit GGUF) by Prism ML
 
 Bonsai-8B is a state-of-the-art end-to-end **1-bit language model** that delivers competitive performance at a fraction of the size.
 
+<div align="center">
+  
 | Property | Detail |
 |----------|--------|
 | **Base Architecture** | Qwen3-8B (dense, GQA, SwiGLU, RoPE, RMSNorm) |
@@ -134,6 +145,8 @@ Bonsai-8B is a state-of-the-art end-to-end **1-bit language model** that deliver
 | **Platform Support** | CUDA (NVIDIA), Metal (Apple Silicon), CPU, OpenCL (Android) |
 | **License** | Apache 2.0 |
 
+</div>
+  
 #### Why Bonsai-8B for RAG?
 - **Minimal VRAM** – 1.15 GB fits on virtually any device, leaving room for the vector index.
 - **Blazing speed** – Up to 368 tok/s on RTX 4090 (6.2× faster than FP16).
@@ -141,12 +154,17 @@ Bonsai-8B is a state-of-the-art end-to-end **1-bit language model** that deliver
 - **Competitive quality** – Maintains strong reasoning despite extreme compression.
 
 #### Cross-Platform Throughput
+
+<div align="center">
+  
 | Platform | Backend | Bonsai (tok/s) | FP16 (tok/s) | Speedup |
 |----------|---------|---------------|-------------|---------|
 | RTX 4090 | CUDA | **368** | 59 | **6.2×** |
 | M4 Pro 48 GB | Metal | **85** | 16 | **5.4×** |
 | Samsung S25 Ultra | OpenCL | **19.6** | — | — |
 
+</div>
+  
 #### Benchmark Performance
 | Model | Company | Size | Avg (6 tasks) | MMLU-R | GSM8K | IFEval |
 |-------|---------|------|--------------|--------|-------|--------|
