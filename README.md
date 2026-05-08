@@ -19,7 +19,8 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 2.  [**Data**](#2-data)
 3.  [**Models Used**](#3-models-used)
 4.  [**Results**](#4-results)
-5.  [**License**](#5-license)
+5.  [**Acknowledgments**](#5-acknowledgments)
+6.  [**License**](#6-license)
 
 <br>
 
@@ -273,7 +274,19 @@ The same refusal pattern holds for technical questions, creative requests, rolep
 
 ---
 
-## 5. License
+## 5. Acknowledgments
+
+- **[Prism ML](https://prismml.com/)** – For developing and open-sourcing the Bonsai-8B 1-bit model, pushing the boundaries of extreme LLM quantization and edge deployment.
+- **[Qwen Team (Alibaba)](https://qwenlm.github.io/)** – For the powerful Qwen3-8B base architecture that Bonsai-8B is built upon.
+- **[Facebook AI Research (FAIR)](https://ai.meta.com/)** – For the FAISS library, enabling efficient and scalable similarity search.
+- **[Hugging Face](https://huggingface.co/)** – For the open-source ecosystem, hosting the models, and providing the `sentence-transformers` and `llama-cpp-python` libraries.
+- **[Bitext](https://www.bitext.com/)** – For providing the high-quality Events Ticketing LLM Chatbot Training Dataset.
+
+<br>
+
+---
+
+## 6. License
 
 This project is licensed under the **Apache 2.0 License**.  
 The Bonsai-8B model is also released under **Apache 2.0** by Prism ML.
