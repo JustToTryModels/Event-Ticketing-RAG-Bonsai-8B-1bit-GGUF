@@ -217,6 +217,8 @@ The system successfully handles ticketing-related queries, retrieving the correc
 > 4. Locate your existing ticket under **Upgrade Ticket Information** and click the **Upgrade Ticket** button.  
 > 5. Follow the on-screen prompts to select your desired upgrade and confirm.
 
+<br>
+
 ---
 
 ### ❌ Out-of-Domain Queries
