@@ -103,7 +103,7 @@ The system is powered by the **Bitext Events Ticketing LLM Chatbot Training Data
 4.  **Phrasing Adjustment** – "Should you" replaced with "If you" for consistency.
 5.  **Capitalization Fixes** – First letter of instructions capitalized.
 
-The cleaned dataset provides the instruction-response pairs that serve as the knowledge base for retrieval.
+> The cleaned dataset provides the instruction-response pairs that serve as the knowledge base for retrieval.
 
 <br>
 
