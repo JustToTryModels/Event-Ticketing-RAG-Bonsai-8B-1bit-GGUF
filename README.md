@@ -278,7 +278,7 @@ The same refusal pattern holds for technical questions, creative requests, rolep
 
 ---
 
-## 5. Acknowledgments
+## 5. Acknowledgments 🙏
 
 - **[Prism ML](https://prismml.com/)** – For developing and open-sourcing the Bonsai-8B 1-bit model, pushing the boundaries of extreme LLM quantization and edge deployment.
 - **[Qwen Team (Alibaba)](https://qwenlm.github.io/)** – For the powerful Qwen3-8B base architecture that Bonsai-8B is built upon.
