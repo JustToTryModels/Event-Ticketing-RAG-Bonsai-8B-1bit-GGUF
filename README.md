@@ -285,6 +285,8 @@ The same refusal pattern holds for technical questions, creative requests, rolep
 - **[Hugging Face](https://huggingface.co/)** – For the open-source ecosystem, hosting the models, and providing the `sentence-transformers` and `llama-cpp-python` libraries.
 - **[Bitext](https://www.bitext.com/)** – For providing the high-quality Events Ticketing LLM Chatbot Training Dataset.
 
+---
+
 <div align="center">
   <br>
   <sub>Built with ❤️ by <a href="https://github.com/MarpakaPradeepSai">Pradeep</a></sub>
