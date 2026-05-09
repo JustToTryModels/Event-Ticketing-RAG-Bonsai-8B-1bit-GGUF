@@ -288,9 +288,8 @@ The same refusal pattern holds for technical questions, creative requests, rolep
 <br>
 
 ---
+
 <div align="center">
   <br>
-  <sub style="font-size: 30px;">
-    Built with ❤️ by <a href="https://github.com/MarpakaPradeepSai">Pradeep</a>
-  </sub>
+  <sub>Built with ❤️ by <a href="https://github.com/MarpakaPradeepSai">Pradeep</a></sub>
 </div>
