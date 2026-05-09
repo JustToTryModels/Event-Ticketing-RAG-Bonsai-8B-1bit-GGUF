@@ -20,7 +20,7 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 3.  [**System Architecture & Models**](#3-system-architecture--models)
 4.  [**Evaluation & Results**](#4-evaluation--results)
 5.  [**Acknowledgments**](#5-acknowledgments-)
-6.  [**License**](#6-license)
+6.  [**License**](#6-license-)
 
 <br>
 
@@ -290,7 +290,7 @@ The same refusal pattern holds for technical questions, creative requests, rolep
 
 ---
 
-## 6. License
+## 6. License 📋
 
 This project is licensed under the **Apache 2.0 License**.  
 The Bonsai-8B model is also released under **Apache 2.0** by Prism ML.
