@@ -69,13 +69,13 @@ This repository implements a **Retrieval-Augmented Generation (RAG)** system des
 [   LLM Generation  ──►  Final Answer + Citations           ]
 </pre>
   
-**Phase 1 – Offline Ingestion & Indexing**
+**Phase 1 – 🔴 Offline Ingestion & Indexing**
 - **Collect documents**: The knowledge base (FAQs, policies, instruction-response pairs).
 - **Chunk the documents**: Split into smaller, manageable pieces.
 - **Generate embeddings**: Convert each chunk into a dense vector using an embedding model.
 - **Store in a vector database**: Index the embeddings in **FAISS** for fast similarity search.
 
-**Phase 2 – Online Query-Time Retrieval & Generation**
+**Phase 2 – 🟢 Online Query-Time Retrieval & Generation**
 - **Query embedding**: The user's question is converted into a vector.
 - **Similarity search**: The vector database performs nearest-neighbor search (cosine similarity).
 - **Fetch top-k chunks**: The system retrieves the k most similar chunks.
