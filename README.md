@@ -197,7 +197,7 @@ Bonsai-8B is a state-of-the-art end-to-end **1-bit language model** that deliver
 
 </div>
   
-> Despite being 1/14th the size, Bonsai-8B matches full-precision 8B models across multiple benchmarks.
+> Despite being only 1/14th the size, Bonsai-8B delivers competitive performance against full-precision 8B models across multiple benchmarks.
 
 <br>
 
