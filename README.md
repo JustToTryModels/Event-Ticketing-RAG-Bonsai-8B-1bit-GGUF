@@ -297,12 +297,5 @@ The Bonsai-8B model is also released under **Apache 2.0** by Prism ML.
 
 <div align="center">
   <br>
-  <sub>Built with ❤️ by <a href="https://github.com/MarpakaPradeepSai">Pradeep Sai</a> · Powered by <a href="https://prismml.com">Prism ML</a></sub>
-</div>
-
-
-
-<div align="center">
-  <br>
   <sub>Built with ❤️ by <a href="https://github.com/MarpakaPradeepSai">Pradeep</a></sub>
 </div>
