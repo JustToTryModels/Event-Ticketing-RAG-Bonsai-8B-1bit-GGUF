@@ -290,7 +290,7 @@ The same refusal pattern holds for technical questions, creative requests, rolep
 ---
 <div align="center">
   <br>
-  <sub style="font-size: 18px;">
+  <sub style="font-size: 30px;">
     Built with ❤️ by <a href="https://github.com/MarpakaPradeepSai">Pradeep</a>
   </sub>
 </div>
