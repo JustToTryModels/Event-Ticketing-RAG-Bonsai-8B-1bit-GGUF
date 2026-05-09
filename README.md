@@ -292,8 +292,8 @@ The same refusal pattern holds for technical questions, creative requests, rolep
 
 ## 6. License 📋
 
-This project is licensed under the **Apache 2.0 License**.  
-The Bonsai-8B model is also released under **Apache 2.0** by Prism ML.
+This project is licensed under the **MIT License**.  
+The Bonsai-8B model is released under **Apache 2.0** by Prism ML.
 
 <div align="center">
   <br>
